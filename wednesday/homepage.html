@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbr.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <style>
+      
+        .home{
+            width:90%;
+            margin:auto;
+        }
+        .home>div{
+            width:95%;
+            margin:Auto;
+            margin-top: 30px;
+           
+        }
+        #track{
+            width:100%;
+            display: flex;
+            margin:auto;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            gap:15px;
+        }
+        #track>div{
+            font-size: 20px;
+
+        }
+        #track>div:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #bar{
+            margin:auto;
+            border:1px solid grey;
+            border-radius: 10px;
+            padding:15px 15px;
+        }
+        #input{
+            margin:auto;
+        }
+        form{
+            width:90%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:15px;
+            margin:auto;
+            margin-top: 20px;
+        }
+        #submit{
+            margin:auto;
+            margin-top: 20px;
+             
+        }
+       
+        .going>input{
+            border:1px solid grey;
+            font-size: 20px;
+            border-radius: 5px;
+            padding:8px;
+        }
+        .goto>input{
+            border:1px solid grey;
+            font-size:20px ;
+            border-radius: 5px;
+            padding:8px 20px;
+        }
+       
+        input[type="submit"]{
+            font-size: 20px;
+            padding:8px 30px 8px 30px;
+            border-radius: 10px;
+            background-color: rgb(81, 81, 247);
+            color:white;
+            border:none;
+            cursor: pointer;
+    
+        }
+        .image{
+            width:85%;
+            margin:auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .image>img{
+            width:100%;
+            border-radius: 10px;
+            
+
+        }
+        h1{
+            position:absolute;
+            left:10%;
+            top:30%;
+            color: white;
+            font-size: 35px;
+        }
+        .image p{
+            position:absolute;
+            left:10%;
+            top:50%;
+            color: white;
+            font-size: 18px;
+
+        }
+        .image2{
+            width:85%;
+            margin:auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .image2>img{
+            width:100%;
+            border-radius: 10px;
+        }
+        .image2>p{
+            position: absolute;
+            left:5%;
+            top:75%;
+            color:white;
+            font-size: 18px;
+        }
+        .image2>p+p{
+            position: absolute;
+            left:5%;
+            top:80%;
+            
+        }
+        #mid{
+            text-align: center;
+            line-height: 25px;
+            margin-top: 30px;
+            color:rgb(83, 80, 80)
+        }
+
+      @media all
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <div> <a href="homepage.html"><img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" alt=""></a>  </div>
+            <div><select name="filter" id="">
+                <option value="">More travel</option>
+            </select></div>
+        </div>
+        <div>
+            <div><a href="">English</a></div>
+            <div>Support</div>
+            <div>Trip</div>
+            <div> <a href="">Sign in</a></div>
+        </div>
+    </div>
+
+    <div class="home">
+        <div>
+            <div id="bar" >
+                <div id="track">
+                    <div>Stays</div>
+                    <div>Flights</div>
+                    <div>Cars</div>
+                    <div>Packages</div>
+                    <div>Things to do</div>
+                </div>
+                <div id="input">
+                    <form action="form">
+                        <div class="going">
+                            <input type="text" placeholder="Go To">
+                        </div>
+                        <div class="goto">
+                            <input type="date">
+                        </div>
+                        <div class="goto">
+                            <input type="date">
+                        </div>
+                        <div class="going">
+                            <input type="text" placeholder="Rooms">
+                        </div>
+                        <div></div>
+                        
+                        <div id="submit">
+                            <input type="submit" value="Search">
+                        </div>
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div CLASS="image">
+        <img src="https://a.travel-assets.com/travel-assets-manager/cmct-5255/POSa-HP-Hero-D-928x398.jpg" alt="">
+        <h1>Save instantly with <br> Expedia Rewards</h1>
+        <p>You can enjoy access to perks like Member Prices,<br> saving you 10% or more on select hotels. Terms <br> may apply.</p>
+    </div>
+    <div CLASS="image2">
+        <img src="https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg" alt="">
+        <p>Plan ahead and save</p>
+        <p>Book 60 days in advance for 20% off select days.</p>
+    </div>
+
+    <p id="mid">Explore a world of travel with Expedia <br>
+        Discover new places and experiences</p>
+
+        <div id="footer">
+            <div><img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt=""></div>
+            <div>
+                <h4>Company</h4>
+                <p>About us</p>
+                <p>Jobs</p>
+                <p>List your proerty</p>
+                <p>partnership</p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <p>India travel guide</p>
+                <p>Hotels in india</p>
+                <p>car hire india</p>
+                <p>partnership</p>
+            </div>
+            <div>
+                <h4>policy</h4>
+                <p>India travel guide</p>
+                <p>Hotels in india</p>
+                <p>car hire india</p>
+                <p>partnership</p>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <p>India travel guide</p>
+                <p>Hotels in india</p>
+                <p>car hire india</p>
+                <p>partnership</p>
+            </div>
+        </div>
+        <div id="mm">
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+        </div>
+        <P>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</P>
+         
+</body>
+</html>
