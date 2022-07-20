@@ -54,25 +54,23 @@
             margin-top: 20px;
         }
         #submit{
-            margin:auto;
+            
             margin-top: 20px;
              
         }
        
         .going>input{
-            border:1px solid grey;
-            font-size: 20px;
-            border-radius: 5px;
-            padding:8px;
-        }
-        .goto>input{
-            border:1px solid grey;
-            font-size:20px ;
-            border-radius: 5px;
-            padding:8px 20px;
+            width:90%;
+            font-size: 15px;
+            border-radius: 10px;
+            border:0.5px solid grey;
+            padding: 15px 10px ;
+            margin-top: 15px;
         }
        
+       
         input[type="submit"]{
+            margin-left: 150%;
             font-size: 20px;
             padding:8px 30px 8px 30px;
             border-radius: 10px;
@@ -97,14 +95,14 @@
         h1{
             position:absolute;
             left:10%;
-            top:30%;
+            top:28%;
             color: white;
             font-size: 35px;
         }
         .image p{
             position:absolute;
             left:10%;
-            top:50%;
+            top:58%;
             color: white;
             font-size: 18px;
 
@@ -139,55 +137,93 @@
             color:rgb(83, 80, 80)
         }
 
-      @media all
+        @media only screen and (min-width: 600px) and (max-width: 800px){
+            form{
+            grid-template-columns: repeat(2,1fr);
+        }
+       
+        input[type="submit"]{
+            margin-left: 80%;
+        }
+        h1{
+            font-size: 18px;
+        }
+        .image p{
+            font-size: 13px;
+            line-height: 12px;
+        }
 
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 599px){
+            form{
+            grid-template-columns: repeat(1,1fr);
+            font-size: 15px;
         
-
+            }
+        input[type="submit"]{
+            margin-left: 32%;
+        }
+        #track>div{
+            font-size: 15px;
+        }
+        .home{
+            width:98%;
+            margin:auto
+        }
+        h1{
+            font-size: 14px;
+        
+        }
+        .image p{
+            font-size: 10px;
+            line-height: 12px;
+        }
+        .image2>p{
+            font-size: 10px;
+        }  
+    }
 
     </style>
 </head>
 <body>
     <div class="navbar">
         <div>
-            <div> <a href="homepage.html"><img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" alt=""></a>  </div>
+            <div> <a href="index.html"><img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" alt=""></a>  </div>
             <div><select name="filter" id="">
                 <option value="">More travel</option>
+                <option value="Stays">Stays</option>
+                <option value="Cars">Cars</option>
+                <option value="Packages">Packages</option>
             </select></div>
         </div>
         <div>
             <div><a href="">English</a></div>
             <div>Support</div>
             <div>Trip</div>
-            <div> <a href="">Sign in</a></div>
+            <div> <a href="signin.html">Sign in</a></div>
         </div>
     </div>
 
     <div class="home">
         <div>
-            <div id="bar" >
-                <div id="track">
-                    <div>Stays</div>
-                    <div>Flights</div>
-                    <div>Cars</div>
-                    <div>Packages</div>
-                    <div>Things to do</div>
+<div id="bar" >
+              <h1>Search Holiday Packages</h1>  
                 </div>
                 <div id="input">
-                    <form action="form">
+                    <form>
                         <div class="going">
-                            <input type="text" placeholder="Go To">
-                        </div>
-                        <div class="goto">
-                            <input type="date">
-                        </div>
-                        <div class="goto">
-                            <input type="date">
+                            <input id="area" type="text" placeholder="Go To" >
                         </div>
                         <div class="going">
-                            <input type="text" placeholder="Rooms">
+                            <input id="date1" type="date" >
                         </div>
-                        <div></div>
-                        
+                        <div class="going">
+                            <input id="date2"type="date" >
+                        </div>
+                        <div class="going">
+                            <input id="room" type="text" placeholder="Rooms">
+                        </div>
                         <div id="submit">
                             <input type="submit" value="Search">
                         </div>
@@ -199,9 +235,11 @@
     </div>
 
     <div CLASS="image">
-        <img src="https://a.travel-assets.com/travel-assets-manager/cmct-5255/POSa-HP-Hero-D-928x398.jpg" alt="">
-        <h1>Save instantly with <br> Expedia Rewards</h1>
-        <p>You can enjoy access to perks like Member Prices,<br> saving you 10% or more on select hotels. Terms <br> may apply.</p>
+       <div></div>
+       <div>
+        <div></div>
+        <div></div>
+       </div>
     </div>
     <div CLASS="image2">
         <img src="https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg" alt="">
@@ -249,4 +287,5 @@
         <P>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</P>
          
 </body>
+<script src="index.js"></script>
 </html>
