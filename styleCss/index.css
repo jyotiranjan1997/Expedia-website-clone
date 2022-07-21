@@ -1,0 +1,175 @@
+
+        .home{
+            width:90%;
+            margin:auto;
+        }
+        .home>div{
+            width:95%;
+            margin:Auto;
+            margin-top: 30px;
+           
+        }
+        #track{
+            width:100%;
+            display: flex;
+            margin:auto;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            gap:15px;
+        }
+        #track>div{
+            font-size: 20px;
+
+        }
+        #track>div:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #bar{
+            margin:auto;
+            border:1px solid grey;
+            border-radius: 10px;
+            padding:15px 15px;
+        }
+        #input{
+            margin:auto;
+        }
+        form{
+            width:90%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:15px;
+            margin:auto;
+            margin-top: 20px;
+        }
+        #submit{
+            
+            margin-top: 20px;
+             
+        }
+       
+        .going>input{
+            width:90%;
+            font-size: 15px;
+            border-radius: 10px;
+            border:0.5px solid grey;
+            padding: 15px 10px ;
+            margin-top: 15px;
+        }
+       
+       
+        input[type="submit"]{
+            margin-left: 150%;
+            font-size: 20px;
+            padding:8px 30px 8px 30px;
+            border-radius: 10px;
+            background-color: rgb(81, 81, 247);
+            color:white;
+            border:none;
+            cursor: pointer;
+    
+        }
+        .image{
+            width:85%;
+            margin:auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .image>img{
+            width:100%;
+            border-radius: 10px;
+            
+
+        }
+        h1{
+            position:absolute;
+            left:10%;
+            top:28%;
+            color: white;
+            font-size: 35px;
+        }
+        .image p{
+            position:absolute;
+            left:10%;
+            top:58%;
+            color: white;
+            font-size: 18px;
+
+        }
+        .image2{
+            width:85%;
+            margin:auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .image2>img{
+            width:100%;
+            border-radius: 10px;
+        }
+        .image2>p{
+            position: absolute;
+            left:5%;
+            top:75%;
+            color:white;
+            font-size: 18px;
+        }
+        .image2>p+p{
+            position: absolute;
+            left:5%;
+            top:80%;
+            
+        }
+        #mid{
+            text-align: center;
+            line-height: 25px;
+            margin-top: 30px;
+            color:rgb(83, 80, 80)
+        }
+
+        @media only screen and (min-width: 600px) and (max-width: 800px){
+            form{
+            grid-template-columns: repeat(2,1fr);
+        }
+       
+        input[type="submit"]{
+            margin-left: 80%;
+        }
+        h1{
+            font-size: 18px;
+        }
+        .image p{
+            font-size: 13px;
+            line-height: 12px;
+        }
+
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 599px){
+            form{
+            grid-template-columns: repeat(1,1fr);
+            font-size: 15px;
+        
+            }
+        input[type="submit"]{
+            margin-left: 32%;
+        }
+        #track>div{
+            font-size: 15px;
+        }
+        .home{
+            width:98%;
+            margin:auto
+        }
+        h1{
+            font-size: 14px;
+        
+        }
+        .image p{
+            font-size: 10px;
+            line-height: 12px;
+        }
+        .image2>p{
+            font-size: 10px;
+        }  
+    }

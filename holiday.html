@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbr.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <style>
+      
+        .home{
+            width:90%;
+            margin:auto;
+        }
+        .home>div{
+            width:95%;
+            margin:Auto;
+            margin-top: 30px;
+           
+        }
+        #track{
+            width:100%;
+            display: flex;
+            margin:auto;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            gap:15px;
+        }
+        #track>div{
+            font-size: 20px;
+
+        }
+        #track>div:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        #bar{
+            margin:auto;
+            border:1px solid grey;
+            border-radius: 10px;
+            padding:15px 15px;
+        }
+        #input{
+            margin:auto;
+        }
+        form{
+            width:90%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:15px;
+            margin:auto;
+            margin-top: 20px;
+        }
+        #submit{
+            
+            margin-top: 20px;
+             
+        }
+       
+        .going>input{
+            width:90%;
+            font-size: 15px;
+            border-radius: 10px;
+            border:0.5px solid grey;
+            padding: 15px 10px ;
+            margin-top: 15px;
+        }
+       
+       
+        input[type="submit"]{
+            margin-left: 150%;
+            font-size: 20px;
+            padding:8px 30px 8px 30px;
+            border-radius: 10px;
+            background-color: rgb(81, 81, 247);
+            color:white;
+            border:none;
+            cursor: pointer;
+    
+        }
+        .image{
+            width:85%;
+            margin:auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .image>img{
+            width:100%;
+            border-radius: 10px;
+            
+
+        }
+        h1{
+            position:absolute;
+            left:10%;
+            top:28%;
+            color: white;
+            font-size: 35px;
+        }
+        .image p{
+            position:absolute;
+            left:10%;
+            top:58%;
+            color: white;
+            font-size: 18px;
+
+        }
+        .image2{
+            width:85%;
+            margin:auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .image2>img{
+            width:100%;
+            border-radius: 10px;
+        }
+        .image2>p{
+            position: absolute;
+            left:5%;
+            top:75%;
+            color:white;
+            font-size: 18px;
+        }
+        .image2>p+p{
+            position: absolute;
+            left:5%;
+            top:80%;
+            
+        }
+        #mid{
+            text-align: center;
+            line-height: 25px;
+            margin-top: 30px;
+            color:rgb(83, 80, 80)
+        }
+
+        @media only screen and (min-width: 600px) and (max-width: 800px){
+            form{
+            grid-template-columns: repeat(2,1fr);
+        }
+       
+        input[type="submit"]{
+            margin-left: 80%;
+        }
+        h1{
+            font-size: 18px;
+        }
+        .image p{
+            font-size: 13px;
+            line-height: 12px;
+        }
+
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 599px){
+            form{
+            grid-template-columns: repeat(1,1fr);
+            font-size: 15px;
+        
+            }
+        input[type="submit"]{
+            margin-left: 32%;
+        }
+        #track>div{
+            font-size: 15px;
+        }
+        .home{
+            width:98%;
+            margin:auto
+        }
+        h1{
+            font-size: 14px;
+        
+        }
+        .image p{
+            font-size: 10px;
+            line-height: 12px;
+        }
+        .image2>p{
+            font-size: 10px;
+        }  
+    }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <div> <a href="index.html"><img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" alt=""></a>  </div>
+            <div><select name="filter" id="">
+                <option value="">More travel</option>
+                <option value="Stays">Stays</option>
+                <option value="Cars">Cars</option>
+                <option value="Packages">Packages</option>
+            </select></div>
+        </div>
+        <div>
+            <div><a href="">English</a></div>
+            <div>Support</div>
+            <div>Trip</div>
+            <div> <a href="signin.html">Sign in</a></div>
+        </div>
+    </div>
+
+    <div class="home">
+        <div>
+<div id="bar" >
+              <h1>Search Holiday Packages</h1>  
+                </div>
+                <div id="input">
+                    <form>
+                        <div class="going">
+                            <input id="area" type="text" placeholder="Go To" >
+                        </div>
+                        <div class="going">
+                            <input id="date1" type="date" >
+                        </div>
+                        <div class="going">
+                            <input id="date2"type="date" >
+                        </div>
+                        <div class="going">
+                            <input id="room" type="text" placeholder="Rooms">
+                        </div>
+                        <div id="submit">
+                            <input type="submit" value="Search">
+                        </div>
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div CLASS="image">
+       <div></div>
+       <div>
+        <div></div>
+        <div></div>
+       </div>
+    </div>
+    <div CLASS="image2">
+        <img src="https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg" alt="">
+        <p>Plan ahead and save</p>
+        <p>Book 60 days in advance for 20% off select days.</p>
+    </div>
+
+    <p id="mid">Explore a world of travel with Expedia <br>
+        Discover new places and experiences</p>
+
+        <div id="footer">
+            <div><img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt=""></div>
+            <div>
+                <h4>Company</h4>
+                <p>About us</p>
+                <p>Jobs</p>
+                <p>List your proerty</p>
+                <p>partnership</p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <p>India travel guide</p>
+                <p>Hotels in india</p>
+                <p>car hire india</p>
+                <p>partnership</p>
+            </div>
+            <div>
+                <h4>policy</h4>
+                <p>India travel guide</p>
+                <p>Hotels in india</p>
+                <p>car hire india</p>
+                <p>partnership</p>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <p>India travel guide</p>
+                <p>Hotels in india</p>
+                <p>car hire india</p>
+                <p>partnership</p>
+            </div>
+        </div>
+        <div id="mm">
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+        </div>
+        <P>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</P>
+         
+</body>
+<script src="index.js"></script>
+</html>
