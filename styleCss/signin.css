@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0
+}
+#border{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    border:1px solid rgb(199, 198, 198);
+    padding:6px
+}
+#sign{
+    width:32%;
+    margin:auto;
+    margin-top: 20px;
+    color:rgb(53, 52, 52)
+}
+#logo{
+    width:20%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px
+}
+form{
+    padding:20px 40px 40px 0px;
+}
+input{
+    width:90%;
+    font-size: 15px;
+    border-radius: 10px;
+    border:0.5px solid grey;
+    padding: 15px 10px ;
+    margin-top: 15px;
+}
+input[type="submit"]{
+    width:95%;
+    background-color: rgb(76, 76, 233);
+    color:white;
+    cursor: pointer;
+}
+p{
+    line-height: 18px;
+    margin-top: 25px;
+    font-size: 15px;
+}
