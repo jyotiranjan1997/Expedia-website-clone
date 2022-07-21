@@ -48,6 +48,10 @@
             margin-top: 20px;
              
         }
+        select{
+            border:none;
+            cursor: pointer;
+        }
        
         .going>input{
             width:90%;
