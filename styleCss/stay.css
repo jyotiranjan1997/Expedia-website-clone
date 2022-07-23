@@ -1,0 +1,175 @@
+#stay{
+    margin:auto;
+    margin-top: 10px;
+    width:85%; 
+}
+h1{
+    margin-left: 60px;
+}
+#input{
+    margin:auto;
+}
+form{
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+    margin:auto;
+    margin-top: 20px;
+}
+#submit{
+    margin-top: 20px;  
+}
+
+.going>input{
+    width:90%;
+    font-size: 15px;
+    border-radius: 10px;
+    border:0.5px solid grey;
+    padding: 15px 10px ;
+    margin-top: 15px;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    padding:8px 30px 8px 30px;
+    border-radius: 10px;
+    background-color: rgb(81, 81, 247);
+    color:white;
+    border:none;
+    cursor: pointer;
+
+}
+
+.popup{
+    width:20%;
+    padding:30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 8px;
+    background-color: rgb(255, 251, 247);
+    position: absolute;
+    left:70%;
+    display:none;
+    font-family:"poppins",sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 400;
+    animation-name: menu-grow-right, menu-fade-in;
+    background-repeat: inherit;
+    animation-duration: 180ms, 60ms;
+    pointer-events: auto;
+}
+button{
+    width:100%;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(91, 91, 231);
+    border:none;
+    border-radius: 5px;
+    padding:8px 0;
+    cursor: pointer;
+    
+}
+.dov{
+    cursor: pointer;;
+}
+
+.popup p{
+    margin-top: 10px;
+    color:black;
+}
+button+p{
+    text-align: center;
+   font-size: 18px;
+}
+#details{
+    width:85%;
+    margin:auto;
+    margin-top: 25px;
+    display: flex;
+    gap:20px;
+}
+#details p{
+    font-size: 14px;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:black
+}
+
+.image2{
+    width:85%;
+    margin:auto;
+    margin-top: 30px;
+    position: relative;
+}
+.image2>img{
+    width:100%;
+    border-radius: 10px;
+}
+.image2>p{
+    position: absolute;
+    left:5%;
+    top:75%;
+    color:white;
+    font-size: 18px;
+}
+.image2>p+p{
+    position: absolute;
+    left:5%;
+    top:80%;
+    
+}
+#mid{
+    text-align: center;
+    line-height: 25px;
+    margin-top: 30px;
+    color:rgb(83, 80, 80)
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    form{
+    grid-template-columns: repeat(2,1fr);
+}
+
+input[type="submit"]{
+    margin-left: 80%;
+}
+
+.image p{
+    font-size: 13px;
+    line-height: 12px;
+}
+.popup{
+    width:40%;
+    left:50%
+}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 599px){
+    form{
+    grid-template-columns: repeat(1,1fr);
+    font-size: 15px;
+
+    }
+input[type="submit"]{
+    margin-left: 32%;
+}
+#track>div{
+    font-size: 15px;
+}
+.home{
+    width:98%;
+    margin:auto
+}
+
+
+.image2>p{
+    font-size: 10px;
+} 
+.popup{
+    width:50%;
+    left:35%
+} 
+}

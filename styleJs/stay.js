@@ -1,4 +1,24 @@
+document.querySelector("#sign").addEventListener("click",changeButton)
+function changeButton(){
+    document.querySelector(".popup").style.display="flex";
+}
 
+document.querySelector("button").addEventListener("click",changePage);
+
+function changePage(){
+    window.location.href="signin.html";
+}
+
+document.querySelector("select").addEventListener("change",pageChanged);
+
+function pageChanged(){
+    let select=document.querySelector("select").value;
+    if(select=="Stays"){
+        window.location.href="stay.html";
+    }else if(select=="Packages"){
+        window.location.href="holiday.html";
+    }
+}
 
 let arr=[{
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/7000000/6360000/6356600/6356509/6b32cd1c_b.jpg",
@@ -143,7 +163,7 @@ let arr=[{
     "name":"Park Hyatt Chennai",
     "area":"Chennai",
     "rating":"4.6/5",
-    "price":"Rs7,268",
+    "price":7268,
     "actprice":"Rs8,140 total"
     },
     {
@@ -151,7 +171,7 @@ let arr=[{
     "name":"Hilton Chennai",
     "area":"Chennai",
     "rating":"4.4/5",
-    "price":"Rs9,500",
+    "price":9500,
     "actprice":"Rs11,210 total"
     },
     {
@@ -159,7 +179,7 @@ let arr=[{
     "name":"Courtyard by Marriott Chennai",
     "area":"Chennai",
     "rating":"4.1/5",
-    "price":"Rs6,000",
+    "price":6000,
     "actprice":"Rs6,720 total"
     },
     {
@@ -167,7 +187,7 @@ let arr=[{
     "name":"ITC Grand Chola, a Luxury Collection Hotel, Chennai",
     "area":"Chennai",
     "rating":"4.4/5",
-    "price":"Rs11,500",
+    "price":11500,
     "actprice":"Rs13,570 total"
     },
     {
