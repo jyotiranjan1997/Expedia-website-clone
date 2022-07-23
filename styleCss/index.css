@@ -2,6 +2,7 @@
         .home{
             width:90%;
             margin:auto;
+           
         }
         .home>div{
             width:95%;
@@ -53,7 +54,7 @@
             cursor: pointer;
         }
        
-        .going>input{
+        input[type="text"], input[type="date"] {
             width:90%;
             font-size: 15px;
             border-radius: 10px;
@@ -130,6 +131,47 @@
             margin-top: 30px;
             color:rgb(83, 80, 80)
         }
+        .popup{
+            width:20%;
+            padding:30px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            border-radius: 8px;
+            background-color: rgb(255, 251, 247);
+            position: absolute;
+            left:70%;
+            display:none;
+            font-family:"poppins",sans-serif;
+            overflow-x: hidden;
+            overflow-y: auto;
+            z-index: 400;
+            animation-name: menu-grow-right, menu-fade-in;
+            background-repeat: inherit;
+            animation-duration: 180ms, 60ms;
+            pointer-events: auto;
+        }
+        button{
+            width:100%;
+            font-size: 15px;
+            color:white;
+            background-color: rgb(91, 91, 231);
+            border:none;
+            border-radius: 5px;
+            padding:8px 0;
+            cursor: pointer;
+            
+        }
+        .dov{
+            cursor: pointer;;
+        }
+        
+        .popup p{
+            margin-top: 10px;
+            color:black;
+        }
+        button+p{
+            text-align: center;
+           font-size: 18px;
+        }
 
         @media only screen and (min-width: 600px) and (max-width: 800px){
             form{
@@ -146,8 +188,14 @@
             font-size: 13px;
             line-height: 12px;
         }
+        .popup{
+            width:40%;
+            left:50%
+        }
 
         }
+        
+        
 
         @media only screen and (min-width: 320px) and (max-width: 599px){
             form{
@@ -176,4 +224,8 @@
         .image2>p{
             font-size: 10px;
         }  
+        .popup{
+            width:50%;
+            left:35%
+        }
     }

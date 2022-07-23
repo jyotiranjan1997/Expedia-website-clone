@@ -7,7 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="styleCss/navbar.css" />
     <link rel="stylesheet" href="styleCss/footer.css" />
-    <link rel="stylesheet" href="styleCss/index.css" /> 
+    <link rel="stylesheet" href="styleCss/stay.css" />
+    <style>
+        .prod{
+            width:85%;
+            height:200px;
+            margin:auto;
+            border: 1px solid red;
+            display: flex;
+            gap:30px;
+        }
+        .prod>div:nth-child(1){
+            width:30%;
+            border: 1px solid blue;
+        }
+        .prod>div:nth-child(2){
+            width:50%;
+            border: 1px solid blue;
+        }
+    </style>
+    
 </head>
 <body>
     <div class="navbar">
@@ -24,7 +43,7 @@
             <div><a href="">English</a></div>
             <div>Support</div>
             <div>Trip</div>
-            <div id="sign"> Sign in</div>
+            <div id="sign">Sign in</div>
         </div>
     </div>
 
@@ -40,23 +59,13 @@
                 <p>Feedback</p>
                 <p>English.INR</p>
             </div>
-
         </div>
-       
-
     </div>
 
-    <div class="home">
-        <div>
-            <div id="bar" >
-                <div id="track">
-                    <div id="stays" >Stays</div>
-                    <div>Flights</div>
-                    <div id="cars">Cars</div>
-                    <div id="package">Packages</div>
-                    <div id="holiday">Things to do</div>
-                </div>
+    <div id="stay"> 
+         
                 <div id="input">
+                    <h1>Search Stays</h1>
                     <form>
                         <div class="going">
                             <input id="area" type="text" placeholder="Go To" >
@@ -74,25 +83,13 @@
                             <input type="submit" value="Search">
                         </div>
                     </form>
-                   
                 </div>
             </div>
-        </div>
+    <div CLASS="prod">
+        <div></div>
+        <div></div>
+      
     </div>
-
-    <div CLASS="image">
-        <img src="https://a.travel-assets.com/travel-assets-manager/cmct-5255/POSa-HP-Hero-D-928x398.jpg" alt="">
-        <h1>Save instantly with <br> Expedia Rewards</h1>
-        <p>You can enjoy access to perks like Member Prices,<br> saving you 10% or more on select hotels. Terms <br> may apply.</p>
-    </div>
-    <div CLASS="image2">
-        <img src="https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg" alt="">
-        <p>Plan ahead and save</p>
-        <p>Book 60 days in advance for 20% off select days.</p>
-    </div>
-
-    <p id="mid">Explore a world of travel with Expedia <br>
-        Discover new places and experiences</p>
 
         <div id="footer">
             <div><img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt=""></div>
@@ -131,5 +128,5 @@
         <P>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</P>
          
 </body>
-<script src="styleJs/index.js"></script>
+<script src="styleJs/stay.js"></script>
 </html>

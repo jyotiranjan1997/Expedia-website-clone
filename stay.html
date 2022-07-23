@@ -7,153 +7,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="styleCss/navbar.css" />
     <link rel="stylesheet" href="styleCss/footer.css" />
+    <link rel="stylesheet" href="styleCss/stay.css" />
     
-    <style>
-      
-        #stay{
-            margin:auto;
-            margin-top: 10px;
-            width:85%; 
-        }
-        h1{
-            margin-left: 60px;
-        }
-        #input{
-            margin:auto;
-        }
-        form{
-            width:90%;
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap:15px;
-            margin:auto;
-            margin-top: 20px;
-        }
-        #submit{
-            margin-top: 20px;  
-        }
-       
-        .going>input{
-            width:90%;
-            font-size: 15px;
-            border-radius: 10px;
-            border:0.5px solid grey;
-            padding: 15px 10px ;
-            margin-top: 15px;
-        }
-       
-        input[type="submit"]{
-            font-size: 20px;
-            padding:8px 30px 8px 30px;
-            border-radius: 10px;
-            background-color: rgb(81, 81, 247);
-            color:white;
-            border:none;
-            cursor: pointer;
-    
-        }
-        #details{
-            width:85%;
-            margin:auto;
-            margin-top: 25px;
-            display: flex;
-            gap:20px;
-        }
-        #details p{
-            font-size: 14px;
-            margin:auto;
-            margin-top: 15px;
-            margin-bottom: 20px;
-            color:black
-        }
-        
-        .image2{
-            width:85%;
-            margin:auto;
-            margin-top: 30px;
-            position: relative;
-        }
-        .image2>img{
-            width:100%;
-            border-radius: 10px;
-        }
-        .image2>p{
-            position: absolute;
-            left:5%;
-            top:75%;
-            color:white;
-            font-size: 18px;
-        }
-        .image2>p+p{
-            position: absolute;
-            left:5%;
-            top:80%;
-            
-        }
-        #mid{
-            text-align: center;
-            line-height: 25px;
-            margin-top: 30px;
-            color:rgb(83, 80, 80)
-        }
-
-        @media only screen and (min-width: 600px) and (max-width: 800px){
-            form{
-            grid-template-columns: repeat(2,1fr);
-        }
-       
-        input[type="submit"]{
-            margin-left: 80%;
-        }
-       
-        .image p{
-            font-size: 13px;
-            line-height: 12px;
-        }
-
-        }
-
-        @media only screen and (min-width: 320px) and (max-width: 599px){
-            form{
-            grid-template-columns: repeat(1,1fr);
-            font-size: 15px;
-        
-            }
-        input[type="submit"]{
-            margin-left: 32%;
-        }
-        #track>div{
-            font-size: 15px;
-        }
-        .home{
-            width:98%;
-            margin:auto
-        }
-        
-       
-        .image2>p{
-            font-size: 10px;
-        }  
-    }
-
-    </style>
 </head>
 <body>
     <div class="navbar">
         <div>
             <div> <a href="index.html"><img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" alt=""></a>  </div>
-            <div><select name="filter" id="">
+            <div><select name="filter" id=" filu">
                 <option value="">More travel</option>
                 <option value="Stays">Stays</option>
                 <option value="Cars">Cars</option>
                 <option value="Packages">Packages</option>
             </select></div>
         </div>
-        <div>
+        <div class="dov">
             <div><a href="">English</a></div>
             <div>Support</div>
             <div>Trip</div>
-            <div> <a href="signin.html">Sign in</a></div>
+            <div id="sign">Sign in</div>
+        </div>
+    </div>
+
+    <div class="popup">
+        <div>
+            <h4>Members can access discounts, points and special features</h4>
+            <button>Sign in</button>
+            <p><a href="signup.html">Create a free account</a></p>
+            <p>List of favourites</p>
+            <p>Expedia Rewards</p>
+            <div>
+                <p>customer support</p>
+                <p>Feedback</p>
+                <p>English.INR</p>
+            </div>
         </div>
     </div>
 
@@ -269,5 +156,5 @@
         <P>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</P>
          
 </body>
-<script src="index.js"></script>
+<script src="styleJs/stay.js"></script>
 </html>
