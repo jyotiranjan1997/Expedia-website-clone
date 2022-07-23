@@ -15,9 +15,12 @@ function dataCollect(event){
     }else{
         data1.push(obj1);
         localStorage.setItem("stays",JSON.stringify(data1));
+        window.location.href="product.html";
     }
     
 }
+
+
 
 document.querySelector("#stays").addEventListener("click",changeStay);
 function changeStay(){
@@ -109,6 +112,15 @@ function changePackage(){
         }else if(select=="Packages"){
             window.location.href="holiday.html";
         }
+    }
+
+
+    let named=JSON.parse(localStorage.getItem("namefile")) || "";
+    
+    let flag=JSON.parse(localStorage.getItem("Value")) || "";
+
+    if(flag==true){
+        document.querySelector("#sign").innerText=named;
     }
   
  
