@@ -11,19 +11,67 @@
     <style>
         .prod{
             width:85%;
-            height:200px;
             margin:auto;
-            border: 1px solid red;
             display: flex;
             gap:30px;
+            margin-top: 20px;
         }
         .prod>div:nth-child(1){
             width:30%;
-            border: 1px solid blue;
         }
         .prod>div:nth-child(2){
-            width:50%;
-            border: 1px solid blue;
+            width:60%;
+           
+        }
+        #check{
+            padding:10px 20px;
+
+        }
+        .prod p{
+            line-height: 18px;
+            font-size: 14px;
+            color:black
+        }
+        #every>div{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap:20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        #every>div image{
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        #filter{
+            padding:10px;
+            border-radius: 10px;
+            cursor: pointer;
+            
+        }
+        #in{
+            padding:10px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: 0.5px solid grey;
+
+        }
+        #prod2>div{
+            margin-left: 20%;
+            margin-top: 20%;
+        }
+        #prod2>div p{
+            line-height: 22px;
+        }
+        #prod2>div h2{
+            margin-bottom: 10px;
+        }
+        #cheker{
+            width:40%;
+            padding:15px 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
         }
     </style>
     
@@ -85,9 +133,46 @@
                     </form>
                 </div>
             </div>
+
+            <div class="prod">
+                <div>
+                    <h3>Search by property name</h3>
+                    <input id="in" type="text" placeholder="e.g. Best Western">
+                </div>
+                <div id="cheker"><h4>Want to pay less for your stay?</h4> 
+                    <p>As a member, instantly save 10% or more on select properties. <br>
+                       Join now, it's free<a href="signin.html">Sign in</a></p></div>
+                <div id="lime" ><select name="" id="filter">
+                    <option value="">sort by <br> Recomanded</option>
+                    <option value="price">price</option>
+                    <option value="rating">Guest rating +our choice</option>
+                </select></div>
+
+                
+                
+            </div>
     <div CLASS="prod">
-        <div></div>
-        <div></div>
+        <div id="prod2">
+            <div>
+                <h2>Filter by</h2>
+                <h4>Popular filters</h4>
+                <p>Guest house</p>
+                <p>Breakfast included</p>
+                <p>Dinner included</p>
+                <h4>Price per night</h4>
+                <p>Less than Rs2,000</p>
+                <p>Rs2,000 to Rs4,000</p>
+                <p>Rs4,000 to Rs8,000</p>
+                <p>Rs8,000 to Rs11,000</p>
+                <p>
+                    Greater than Rs11,000</p>
+
+            </div>
+           
+        </div>
+        <div id="every">
+            <div id="check"> </div>
+        </div>
       
     </div>
 

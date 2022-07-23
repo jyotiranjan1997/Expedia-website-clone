@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(220, 220, 240);
+}
+#body{
+    width:85%;
+    margin: auto;
+   
+}
+.paymet{
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    color: rgb(76, 76, 245);
+}
+#pay{
+    display: flex;
+    gap:20px;
+}
+.gat{
+    width:60%;
+    
+}
+.bat{
+    width:25%;
+    
+}
+.gate{
+    width:90%;
+    margin-top: 30px;
+    padding: 15px 0px 15px 50px;
+    background-color: white;
+}
+input{
+    padding:8px 10px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+.navbar{
+    background-color: white;
+}
+img{
+    width:100%;
+}
+.baty{
+    margin-top: 30px;
+    background-color: white;
+    padding-bottom: 40px;
+}
+.baty2{
+    padding:20px;
+    background-color: white;
+    margin-top: 30px;
+}
+.baty2>h2,  .baty2>h3{
+    line-height: 25px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.baty2>p{
+    font-size: 12px;
+}
+.baty2>h4{
+  font-weight:lighter;
+}
+#fir{
+    margin-left: 30%;
+    font-weight: bold;
+}
+#fir1{
+    margin-left: 18%;
+    font-weight: bold;
+}
+#fir2{
+    margin-left: 50%;
+}
+
+input[type="submit"]{
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: beige;
+}
+input[type="submit"]:hover{
+    color:white;
+    background-color: rgb(125, 125, 233);
+    cursor: pointer;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

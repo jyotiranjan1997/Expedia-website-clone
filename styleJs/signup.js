@@ -4,6 +4,7 @@ document.querySelector("form").addEventListener("submit",signupData);
 let form=document.querySelector("form");
 
 function signupData(){
+    event.preventDefault();
     let obj2={
         emailId:form.email.value,
         FirstName:form.name.value,

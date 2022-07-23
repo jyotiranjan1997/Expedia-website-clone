@@ -22,140 +22,154 @@ function pageChanged(){
 
 let arr=[{
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/7000000/6360000/6356600/6356509/6b32cd1c_b.jpg",
-    heading:"JW Marriott Hotel Bengaluru",
+    name:"JW Marriott Hotel Bengaluru",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.6/5 Wonderful(143 reviews)",
-    price: 17500,
+    price: "Rs1,7500",
+    price1:17500,
     actprice:"Rs20,650 total"
 
 },
 {
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/7000000/6100000/6097600/6097535/e60af9b9_b.jpg",
-    heading:"Hilton Bangalore Embassy GolfLinks",
+    name:"Hilton Bangalore Embassy GolfLinks",
     area:"Bengaluru",
     h4:"",
     rating:"4.4/5 Wonderful(80 reviews)",
     price: 13500,
+    price1:13500,
     actprice:"Rs16,727 total"
 
 },
 {
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/24000000/23090000/23088600/23088585/728838fe_b.jpg",
-    heading:"Sheraton Grand Bengaluru Whitefield",
+    name:"Sheraton Grand Bengaluru Whitefield",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.7/5 Wonderful(35 reviews)",
     price: 12750,
+    price1: 12750,
     actprice:"Rs15,045 total"
 
 },
 {
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/7000000/6500000/6493900/6493895/27a0c3a7_b.jpg",
-    heading:"Fairfield By Marriott Bengaluru Rajajinagar",
+    name:"Fairfield By Marriott Bengaluru Rajajinagar",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.0/5 Very Good(184 reviews)",
     price: 6999,
+    price1: 6999,
     actprice:"Rs7,839 total"
 
 },
 {
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/7000000/6470000/6468000/6467933/123bcc06_b.jpg",
-    heading:"The Ritz-Carlton,Bangalore",
+    name:"The Ritz-Carlton,Bangalore",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.7/5 Exceptional(143 reviews)",
     price: 17600,
+    price1: 17600,
     actprice:"Rs20,768 total"
 
 },
 {
     image:"https://images.trvl-media.com/hotels/1000000/860000/851500/851448/360577d2.jpg?impolicy=resizecrop&rw=455&ra=fit",
-    heading:"The Leela Palace Bengaluru",
+    name:"The Leela Palace Bengaluru",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.6/5 Wonderful(248 reviews)",
     price: 27375,
+    price1: 27375,
     actprice:"Rs32,303 total"
 
 },
 {
     image:"https://images.trvl-media.com/hotels/4000000/3120000/3114400/3114317/f0784799.jpg?impolicy=resizecrop&rw=455&ra=fit",
-    heading:"ITC Gardenia,a Luxury Collection Hotel",
+    name:"ITC Gardenia,a Luxury Collection Hotel",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.6/5 Wonderful(293 reviews)",
     price: 15500,
+    price1: 15500,
     actprice:"Rs18,290 total"
 
 },
 {
     image:"https://images.trvl-media.com/hotels/1000000/30000/21700/21672/3b47de32.jpg?impolicy=resizecrop&rw=455&ra=fit",
-    heading:"The Oberoi, Bengaluru",
+    name:"The Oberoi, Bengaluru",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.8/5 Exceptional(353 reviews)",
     price: 14212,
+    price1: 14212,
     actprice:"Rs16,770 total"
 
 },
 {
     image:"https://images.trvl-media.com/hotels/7000000/6360000/6356600/6356509/6b32cd1c.jpg?impolicy=resizecrop&rw=455&ra=fit",
-    heading:"JW Marriott Hotel Bengaluru",
+    name:"JW Marriott Hotel Bengaluru",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.6/5 Wonderful(143 reviews)",
     price: 17500,
+    price1: 17500,
     actprice:"Rs20,650 total"
 
 },
 {
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/7000000/6100000/6097600/6097535/e60af9b9_b.jpg",
-    heading:"Hilton Bangalore Embassy GolfLinks",
+    name:"Hilton Bangalore Embassy GolfLinks",
     area:"Bengaluru",
     h4:"",
     rating:"4.4/5 Wonderful(80 reviews)",
     price: 13500,
+    price1: 13500,
     actprice:"Rs16,727 total"
 
 },
 {
     image:"https://images.trvl-media.com/hotels/13000000/13000000/12997400/12997353/1b6e9e76.jpg?impolicy=resizecrop&rw=455&ra=fit",
-    heading:"Taj Bangalore",
+    name:"Taj Bangalore",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.7/5 Exceptional(473 reviews)",
     price: 14750,
+    price1: 14750,
     actprice:"Rs17,405 total"
 
 },
 {
     image:"https://images.trvl-media.com/hotels/1000000/850000/848900/848856/1f45b83d.jpg?impolicy=resizecrop&rw=455&ra=fit",
-    heading:"Radisson Blu Atria Bengaluru",
+    name:"Radisson Blu Atria Bengaluru",
     area:"Bengaluru",
     h4:"",
     rating:"4.2/5 Very good(155 reviews)",
-    price: 7920,
+    price: "Rs 7,920",
+    price1:7920,
     actprice:"Rs9,405 total"
 
 },
 {
     image:"https://images.trvl-media.com/hotels/2000000/1540000/1531600/1531574/dbb2d077.jpg?impolicy=resizecrop&rw=455&ra=fit",
-    heading:"Hyatt Centric MG Road Bangalore",
+    name:"Hyatt Centric MG Road Bangalore",
     area:"Bengaluru",
     h4:"Fully refundable",
     rating:"4.1/5 Very good(223 reviews)",
     price: 8500,
+    price1: 8500,
     actprice:"Rs10,405 total"
 },
 {
     image:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5100000/5098500/5098424/615f7c84_b.jpg",
-    heading:"Park Hyatt Chennai",
+    name:"Park Hyatt Chennai",
     area:"Chennai",
     h4:"",
     rating:"4.6/5 Wonderful(306 reviews)",
     price: 7268,
+    price1: 7268,
     actprice:"Rs8,140 total"
 },
 {
@@ -164,6 +178,7 @@ let arr=[{
     "area":"Chennai",
     "rating":"4.6/5",
     "price":7268,
+    "price1":7268,
     "actprice":"Rs8,140 total"
     },
     {
@@ -172,6 +187,7 @@ let arr=[{
     "area":"Chennai",
     "rating":"4.4/5",
     "price":9500,
+    "price1":9500,
     "actprice":"Rs11,210 total"
     },
     {
@@ -180,6 +196,7 @@ let arr=[{
     "area":"Chennai",
     "rating":"4.1/5",
     "price":6000,
+    "price1":6000,
     "actprice":"Rs6,720 total"
     },
     {
@@ -188,6 +205,7 @@ let arr=[{
     "area":"Chennai",
     "rating":"4.4/5",
     "price":11500,
+    "price1":11500,
     "actprice":"Rs13,570 total"
     },
     {
@@ -749,3 +767,122 @@ let arr=[{
         }
 
 ]
+
+
+
+let data1=JSON.parse(localStorage.getItem("stays")) || [];
+let Area=data1[data1.length-1].area;
+
+let file=arr.filter(function(ele){
+    let x=ele.area.toLocaleLowerCase();
+    let y=Area.toLocaleLowerCase();
+    return x==y;
+})
+
+
+let flag=JSON.parse(localStorage.getItem("Value")) || "";
+
+if(flag==true){
+    document.querySelector("#cheker").innerHTML="";
+    document.querySelector("#cheker").style.boxShadow="none";
+}
+
+
+
+
+  displayTable(file);
+
+  function displayTable(data){
+    document.querySelector("#every").innerHTML="";
+    for(i=0;i<data.length;i++){
+        let x=data[i].price1;
+        let div=document.createElement("div");
+        div.style.cursor="pointer";
+        div.addEventListener("click",function(){
+            changeX(x);
+            
+        });
+        div.style.display="flex";
+        div.style.height="180px"
+        let div1=document.createElement("div");
+        div1.style.width="40%";
+        let div2=document.createElement("div");
+        div2.style.width="50%";
+       
+        let img=document.createElement("img");
+        img.src=data[i].image;
+        img.style.width="100%";
+        img.style.height="100%";
+        img.style.borderBottomLeftRadius= "10px";
+        img.style.borderTopLeftRadius= "10px";
+        let col1=document.createElement("div");
+        col1.style.height="70%"
+        let h2=document.createElement("h4");
+        h2.innerText=data[i].name;
+        let para=document.createElement("p");
+        para.innerText=data[i].area;
+        let col2=document.createElement("div");
+        col2.style.display="flex";
+        col2.style.height="30%";
+        let col5=document.createElement("div");
+        col5.style.width="80%"
+        let pop1=document.createElement("p");
+        pop1.innerText=data[i].h4;
+        pop1.style.marginBottom="10px";
+        pop1.style.color="green"
+        let pop=document.createElement("p");
+        pop.innerText=data[i].rating;
+        let col6=document.createElement("div");
+        col6.style.width="20%";
+        let h3=document.createElement("h3");
+        h3.innerText=data[i].price;
+        let lat=document.createElement("p");
+        lat.innerText=data[i].actprice;
+        col5.append(pop1,pop);
+        col6.append(h3,lat);
+        col2.append(col5,col6);
+        col1.append(h2,para);
+        div2.append(col1,col2);
+        div1.append(img);
+        div.append(div1,div2);
+        
+        document.querySelector("#every").append(div);
+    }
+  }
+
+
+function changeX(prices){
+    window.location.href="payment.html";
+    
+    productPrice=prices;
+    localStorage.setItem("pry",JSON.stringify(productPrice));
+    
+}
+
+let named=JSON.parse(localStorage.getItem("namefile")) || "";
+    
+
+if(flag==true){
+    document.querySelector("#sign").innerText=named;
+}
+
+document.querySelector("#filter").addEventListener("change",function(){
+    filterChange(file);
+});
+
+function filterChange(file){
+    let select=document.querySelector("#filter").value;
+    console.log(select)
+
+    if(select=="price"){
+       
+      let datk=file.sort(function(a,b){
+            return a.price1 - b.price1;
+        })
+        displayTable(datk);
+    }
+
+   
+
+}
+

@@ -19,3 +19,12 @@ function pageChanged(){
         window.location.href="holiday.html";
     }
 }
+
+let named=JSON.parse(localStorage.getItem("namefile")) || "";
+    
+let flag=JSON.parse(localStorage.getItem("Value")) || "";
+
+if(flag==true){
+    document.querySelector("#sign").innerText=named;
+}
+
